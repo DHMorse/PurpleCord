@@ -1,0 +1,30 @@
+/**
+ * @name Round Server Icons
+ * @author DHMorse
+ * @version 1.0.0
+ * @source https://github.com/DHMorse/PurpleCord
+ * @website https://github.com/DHMorse/PurpleCord
+ * @description Makes server icons round again like they used to be
+ */
+
+/* Make server icons round */
+[class*="wrapper_cc5dd2"] foreignObject {
+    mask: none !important;
+}
+
+[class*="wrapper_cc5dd2"] [class*="icon__6e9f8"],
+[class*="wrapper_cc5dd2"] [class*="childWrapper__6e9f8"],
+[class*="wrapper_cc5dd2"] [class*="wrapper__6e9f8"],
+[class*="circleIconButton__5bc7e"] {
+    border-radius: 50% !important;
+}
+
+/* Fix folder icons to be round */
+[class*="folderIconWrapper__48112"] [class*="guildIcon__48112"] {
+    border-radius: 50% !important;
+}
+
+/* Ensure the pill indicator aligns with round icons */
+[class*="pill__58105"] {
+    left: -2px;
+} 
