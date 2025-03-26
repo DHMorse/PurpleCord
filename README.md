@@ -1,41 +1,74 @@
 # PurpleCord Theme for Vencord
 
-A sleek purple-themed customization for your Discord client using Vencord.
+A sleek and modern purple-themed customization for Discord using Vencord, featuring elegant message bubbles and smooth animations.
 
 ## Features
 
-- Custom server icons styling
-- Clean and minimalistic UI elements
-- Purple-focused color scheme
-- Selective element hiding for a cleaner interface
+- **Message Bubbles**
+  - Elegant dark semi-transparent backgrounds
+  - Pink-bordered message bubbles with soft glow effects
+  - Smooth hover animations
+  - Properly aligned avatars and reactions
+  - Clean message spacing and layout
+
+- **Custom Server Icons**
+  - Rounded corners with hover effects
+  - Green unread message indicators with glow
+  - Customized server list appearance
+
+- **Special Features**
+  - Gradient text effects for Direct Messages header
+  - Custom styling for specific users (special highlighting)
+  - Clean and minimalistic UI elements
+  - Purple-focused color scheme with pink accents
+
+## Files
+
+- `purpleCord.css`: Main theme file with core styling and animations
+- `hide.css`: Optional styles for hiding specific Discord elements
+- `roundServerIcons.css`: Custom styling for server icons
+- `install.sh`: Installation script for Vencord setup
 
 ## Installation
 
-1. Make sure you have Vencord installed and properly set up
-2. Clone this repository to your local machine
-3. **Important**: Before running the install script, verify that your Vencord themes directory is located at `~/.config/Vencord/themes/`. If your Vencord installation uses a different path, you'll need to modify the paths in `install.sh`
+1. Ensure you have Vencord installed and properly configured
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/DHMorse/PurpleCord
+   ```
+3. **Important**: Verify your Vencord themes directory is at `~/.config/Vencord/themes/`
 4. Run the installation script:
    ```bash
    ./install.sh
    ```
 
-## Components
+## Customization
 
-- `hide.css`: Contains styles for hiding specific Discord elements to create a cleaner interface
-- `roundServerIcons.css`: Custom styling for server icons with rounded corners and hover effects
-- `install.sh`: Installation script to set up the theme in your Vencord environment
+You can customize the theme by:
+1. Modifying color values in the CSS files
+2. Adjusting animation timings and effects
+3. Enabling/disabling specific components through Vencord's theme settings
 
 ## Troubleshooting
 
-If the installation fails:
-1. Check if the Vencord themes directory exists at `~/.config/Vencord/themes/`
-2. Ensure you have proper permissions to create symbolic links
-3. Verify that all CSS files are present in the repository
+If you encounter issues:
+1. Verify Vencord is properly installed
+2. Check if the themes directory exists at `~/.config/Vencord/themes/`
+3. Ensure all CSS files are properly linked
+4. Try restarting Discord after installation
+5. Check Discord's console for any error messages
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+- Submit issues for bugs or feature requests
+- Create pull requests with improvements
+- Share your customizations with the community
 
 ## License
 
 This project is licensed under the terms included in the LICENSE file.
 
-## Contributing
-
-Feel free to submit issues and pull requests to help improve PurpleCord!
+## Credits
+ 
+Based of my fork of [Leancord](https://github.com/SublimeSlime/Leancord) which is orginally based of [Lande della Discordia](https://ungiglio.github.io/DiscordDiscordia/)
