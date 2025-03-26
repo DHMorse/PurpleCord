@@ -1,0 +1,211 @@
+/**
+ * @name PurpleCord
+ * @author DHMorse
+ * @version 1.0.0
+ * @source https://github.com/DHMorse/PurpleCord
+ * @website https://github.com/DHMorse/PurpleCord
+ * @description PurpleCord
+*/
+
+
+/* Reworked Bubbles */
+.cozyMessage__5126c {
+  background: rgba(20, 20, 20, 0.85) !important; /* Darker semi-transparent background */
+  border-radius: 18px !important; /* Softer rounded edges */
+  padding: 10px 14px !important; /* More padding for clean look */
+  margin: 6px 0 !important; /* Spacing between bubbles */
+  border: 2px solid rgba(255, 105, 180, 0.6) !important; /* Pink border :D */
+  box-shadow: 0px 0px 8px rgba(255, 105, 180, 0.4) !important; /* Soft glow effect (wowzers) */
+  transition: all 0.2s ease-in-out !important; /* Smooth hover effect (add color at some point) */
+}
+
+/* Moves ONLY The Text Block Thingy */
+.contents_c19a55 {
+  margin-left: 60px !important; /* Moves text to the right */
+  position: relative !important;
+}
+
+/* Username Relativity keeper */
+.header_c19a55 {
+  position: relative !important;
+  margin-bottom: 3px !important;
+}
+
+/* Keep Message Content Good */
+.messageContent_c19a55 {
+  position: relative !important;
+  word-wrap: break-word !important;
+}
+
+/* Sexy pink bordered message bubble */
+.cozyMessage__5126c {
+  background: rgba(20, 20, 20, 0.85) !important;
+  border-radius: 18px !important;
+  padding: 10px 14px !important;
+  border: 2px solid rgba(255, 105, 180, 0.6) !important;
+  box-shadow: 0px 0px 8px rgba(255, 105, 180, 0.4) !important;
+  transition: all 0.2s ease-in-out !important;
+  max-width: 75% !important;
+  word-wrap: break-word !important;
+  display: inline-block !important;
+}
+
+/* Hover Effect */
+.cozyMessage__5126c:hover {
+  background: rgba(30, 30, 30, 0.9) !important;
+  border-color: rgba(255, 182, 193, 0.8) !important;
+  box-shadow: 0px 0px 12px rgba(255, 182, 193, 0.6) !important;
+}
+
+/* Un-Stupids Pfp Issues */
+.avatar_c19a55 {
+  position: absolute !important;
+  left: -62px !important;  /* Adjust to fine-tune */
+  top: 0px !important;   /* Adjust to fine-tune */
+  width: 40px !important; 
+  height: 40px !important;
+  border-radius: 50% !important;
+  z-index: 10 !important; /* Ensures it doesn't get covered */
+}
+
+/* Moves the decoration thingy */
+.avatarDecoration_c19a55 {
+  left: -65px !important;
+  z-index: 11
+}
+
+/* Moves the container thingy */
+.container_b7e1cb {  
+  margin-top: 20px !important; /* Pushes attachments downward */
+  margin-left: 30px
+}
+
+/* Aligns reaction box thing with the text */
+.reactions__23977 {
+  position: relative !important;
+  margin-left: 55px !important; /* Adjust to match text alignment */
+  display: flex !important;
+  align-items: center !important;
+}
+
+.message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) {
+  margin-left: 66px !important; /* Align the bubble with the first message */
+  max-width: calc(100% - 60px) !important; /* Prevent stretching */
+  padding-left: 0px !important; /* Keep padding from shifting text */
+  display: inline-block !important; /* Ensures bubble wraps properly */
+  width: auto !important; /* Allows natural width */
+}
+
+/* Message conntent fix */
+.message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) .messageContent_c19a55 {
+  margin-left: -120px !important; /* Align text properly */
+  display: inline !important; /* Maintain proper wrapping */
+  white-space: normal !important; /* Prevent weird spacing */
+}
+
+/* Pretty Message Bubble Border :O */
+.link__972a0.selected .layout__20a53 {
+  border-left: 4px solid #ff66b2 !important; /* Pink left border */
+  background-color: rgba(255, 102, 178, 0.1) !important; /* Light pink background */
+  border-radius: 6px !important; /* Smooth edges */
+  padding-left: 4px !important; /* Prevents overlap */
+}
+
+/* makes unread server messages bubble green */
+.pill_e5445c .item__58105 {
+  background-color: #32cd32 !important;
+  box-shadow: 0 0 8px #32cd32 !important;
+}
+
+
+
+/* Reserved For My Bbg <3 */
+.link__972a0[aria-label*="Jesper"] {
+    background-color: rgba(111, 12, 168, 0.4) !important;
+    border: 2px solid #7827e2 !important;
+    border-radius: 12px !important;
+    transition: all 0.2s ease-in-out !important;
+    margin: 2px 0 !important;
+    width: 100% !important;
+}
+
+.link__972a0[aria-label*="Jesper"]:hover {
+    background-color: rgba(111, 12, 168, 0.6) !important;
+    border-color: #9b54ff !important;
+    box-shadow: 0 0 8px rgba(120, 39, 226, 0.4) !important;
+}
+
+.link__972a0[aria-label*="Jesper"] .layout__20a53 {
+    padding: 10px 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+}
+
+/* I don't know why I need these three but I can get more text to show up if I have them */
+.link__972a0[aria-label*="Jesper"] .content__20a53 {
+    flex-grow: 1 !important;
+    margin-left: 1px !important;
+}
+
+.link__972a0[aria-label*="Jesper"] .avatar__20a53 {
+    margin-right: 1px !important;
+}
+
+.link__972a0[aria-label*="Jesper"] .subText__20a53 {
+    margin-top: 2px !important;
+}
+
+
+
+/* Style for the Direct Messages header */
+.privateChannelsHeaderContainer__99e7c {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #e0137a, #6c09c9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5px;
+}
+
+.headerText__99e7c {
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #e96cb3, #8b45ec); /* Gradient text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 4px rgba(189, 147, 249, 0.4); /* Soft glow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between text and lines */
+}
+
+/* this part is bugged. it makes lines around the text. */
+/* .headerText__99e7c::before,
+.headerText__99e7c::after {
+  content: "";
+  flex-grow: 1;
+  height: 2px;
+  background: linear-gradient(90deg, #f361b4d2, #9b54ffd2);
+  opacity: 0.8;
+}  */
+
+
+/* Highlight Stuff */
+:root {
+/* --rgb-highlight: 178, 10, 255;                          /* 4, 217, 255; The main highlight color */
+/* --rgb-close-button: 224, 258, 62;                         The main "close this" or "deny" color */
+/* --rgb-online-color: 31, 147, 80;                         /* (31, 147, 80: default green) The color used in the "online" user status symbol */
+/* --rgb-afk-color: 255, 0, 255;                           The color used in the "idle" user status symbol */
+/* --rgb-dnd-color: 225, 18, 12;                            The color used in the "do not disturb" user status symbol */
+/* --rgb-streaming-color: 188, 19, 254;                     The color used in the "streaming X" user status symbol */
+--status-danger: rgb(152, 51, 255);                      /* The color used for every danger action/button */
+}
+

@@ -7,7 +7,7 @@
 # Get the directory where the script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 THEMES_DIR="${HOME}/.config/Vencord/themes"
-THEME_FILES=("hide.css" "serverIcons.css")
+THEME_FILES=("hide.css" "roundServerIcons.css" "purpleCord.css")
 
 # Check if Vencord themes directory exists
 if [ ! -d "$THEMES_DIR" ]; then
